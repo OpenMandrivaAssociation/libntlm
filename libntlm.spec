@@ -4,8 +4,8 @@
 
 Summary:	Microsoft WinNT domain authentication library
 Name:		libntlm
-Version:	1.3
-Release:	5
+Version:	1.4
+Release:	1
 Group:		System/Libraries
 License:	LGPLv2+
 Url:		http://www.nongnu.org/libntlm/
