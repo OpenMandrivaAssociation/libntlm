@@ -1,6 +1,6 @@
-%define major	0
-%define libname	%mklibname ntlm %{major}
-%define devname	%mklibname ntlm -d
+%define major 0
+%define libname %mklibname ntlm %{major}
+%define devname %mklibname ntlm -d
 
 Summary:	Microsoft WinNT domain authentication library
 Name:		libntlm
