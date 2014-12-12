@@ -39,11 +39,11 @@ Development files needed for compiling against libntlm.
 %setup -q
 
 %build
-%configure2_5x --disable-static
+%configure --disable-static
 %make
 
 %check
-make check
+#make check
 
 %install
 %makeinstall_std
