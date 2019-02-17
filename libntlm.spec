@@ -4,8 +4,8 @@
 
 Summary:	Microsoft WinNT domain authentication library
 Name:		libntlm
-Version:	1.4
-Release:	6
+Version:	1.5
+Release:	1
 Group:		System/Libraries
 License:	LGPLv2+
 Url:		http://www.nongnu.org/libntlm/
@@ -40,13 +40,13 @@ Development files needed for compiling against libntlm.
 
 %build
 %configure --disable-static
-%make
+%make_build
 
 %check
 #make check
 
 %install
-%makeinstall_std
+%make_install
 
 %files -n %{libname}
 %{_libdir}/libntlm.so.%{major}*
