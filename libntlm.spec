@@ -8,7 +8,7 @@ Version:	1.6
 Release:	2
 Group:		System/Libraries
 License:	LGPLv2+
-Url:		http://www.nongnu.org/libntlm/
+Url:		https://www.nongnu.org/libntlm/
 Source0:	http://www.nongnu.org/libntlm/releases/%{name}-%{version}.tar.gz
 %ifnarch %arm %mips
 BuildRequires:	valgrind
