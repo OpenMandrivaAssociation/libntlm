@@ -11,6 +11,11 @@ License:	LGPLv2+
 Url:		https://www.nongnu.org/libntlm/
 Source0:	http://www.nongnu.org/libntlm/releases/%{name}-%{version}.tar.gz
 %ifnarch %arm %mips
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	valgrind
 %endif
 
